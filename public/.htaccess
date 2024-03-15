@@ -1,0 +1,6 @@
+Options -MultiViews
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^energiamalgrat.cat [NC]
+RewriteRule ^(.*)$ http://www.energiamalgrat.cat/$1 [L,R=301,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
