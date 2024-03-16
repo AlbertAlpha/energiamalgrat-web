@@ -1,15 +1,14 @@
-/* eslint-disable import/no-extraneous-dependencies */
-import tailwindTypography from '@tailwindcss/typography';
-import type { Config } from 'tailwindcss';
+import { type Config } from 'tailwindcss';
 import { fontFamily } from 'tailwindcss/defaultTheme';
 
 export default {
-  darkMode: ['class'],
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.tsx'],
   theme: {
-    fontFamily: {
-      sans: ['"Plus Jakarta Sans"', ...fontFamily.sans],
+    extend: {
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', ...fontFamily.sans],
+      },
     },
   },
-  plugins: [tailwindTypography],
+  plugins: [],
 } satisfies Config;

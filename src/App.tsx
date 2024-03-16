@@ -1,14 +1,12 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import Layout from '@/lib/layout';
-import Routings from '@/lib/router/Routings';
-
+import Layout from '~/layout';
+import Routing from '~/router/Routing';
 const App = () => (
   <Router>
     <Layout>
-      <Routings />
+      <Routing />
     </Layout>
   </Router>
 );
-
 export default App;

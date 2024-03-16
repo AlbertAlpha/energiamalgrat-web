@@ -1,18 +1,50 @@
-node_modules
-.DS_Store
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
 dist
 dist-ssr
 *.local
 
+# misc
+.DS_Store
+*.pem
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# TS
-*.tsbuildinfo
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Turbo
-.turbo
+# vercel
+.vercel
 
-.vscode/settings.json
-
-stats.*
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

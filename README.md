@@ -1,42 +1,80 @@
-<img src="https://og.sznm.dev/api/generate?heading=vite-react-tailwind-starter&text=React+vite+template+with+TailwindCSS+and+TypeScript+setup.&template=color&center=true&height=330" />
+![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
 
-This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [TailwindCSS](https://tailwindcss.com) and [TypeScript](https://www.typescriptlang.org) setup.
+# React Tailwindcss Boilerplate build with Vite
 
-- ⚡ blazing fast dev server and build
-- 🔗 route management added (`react-router-dom` configured)
+This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
 
-[**Live Demo**](https://vite-react-tailwind-starter.sznm.dev/)
+## What is inside?
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/vite-react-tailwind-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/vite-react-tailwind-starter)
+This project uses many tools like:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/vite-react-tailwind-starter)
+- [Vite](https://vitejs.dev)
+- [ReactJS](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Vitest](https://vitest.dev)
+- [Testing Library](https://testing-library.com)
+- [Tailwindcss](https://tailwindcss.com)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
 
 ## Getting Started
 
-You can either click [`Use this template`](https://github.com/sozonome/vite-react-tailwind-starter/generate) button on this repository and clone the repo or use npx degit like so:
+### Install
+
+Create the project.
 
 ```bash
-npx degit sozonome/vite-react-tailwind-starter <app_name>
+npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
 ```
 
-```
-pnpm i
-```
-
-Then, run the development server:
+Access the project directory.
 
 ```bash
-pnpm dev
+cd my-app
 ```
 
-## Deployment
+Install dependencies.
 
-- build command: `pnpm build`
-- output directory: `dist`
+```bash
+pnpm install
+```
 
-## References
+Serve with hot reload at <http://localhost:5173>.
 
-- [vite](https://vitejs.dev)
-  - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
-- [TailwindCSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org)
+```bash
+pnpm run dev
+```
+
+### Lint
+
+```bash
+pnpm run lint
+```
+
+### Typecheck
+
+```bash
+pnpm run typecheck
+```
+
+### Build
+
+```bash
+pnpm run build
+```
+
+### Test
+
+```bash
+pnpm run test
+```
+
+View and interact with your tests via UI.
+
+```bash
+pnpm run test:ui
+```
+
+## License
+
+This project is licensed under the MIT License.
