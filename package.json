@@ -1,13 +1,17 @@
 {
   "name": "energiamalgrat-web",
-  "description": "Web oficial de la Comunitat Energètica de Malgrat de Mar",
   "version": "1.0.0",
-  "private": true,
-  "homepage": "https://github.com/AlbertAlpha/energiamalgrat-web",
+  "description": "Web oficial de la Comunitat Energètica de Malgrat de Mar",
+  "homepage": "https://github.com/AlbertAlpha/energiamalgrat-web#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlbertAlpha/energiamalgrat-web.git"
+  },
   "author": {
     "name": "Albert Aubanell",
     "url": "https://github.com/albertalpha"
   },
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -60,8 +64,7 @@
     "vitest": "^1.4.0"
   },
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=8"
+    "node": ">=20.10"
   },
   "packageManager": "pnpm@8.15.4"
 }
