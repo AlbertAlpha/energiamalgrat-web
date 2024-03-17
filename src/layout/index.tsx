@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
 
 import { ThemeProvider } from '~/components/theme-provider';
-
 import Footer from './Footer';
 import Header from './Header';
 import Meta from './Meta';

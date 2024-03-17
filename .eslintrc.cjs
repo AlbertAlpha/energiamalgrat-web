@@ -7,29 +7,19 @@ const config = {
     jest: true,
     node: true
   },
-  settings: {
-    react: {
-      version: "detect"
-    }
-  },
   extends: [
     "eslint:recommended",
+    "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended",
-    "plugin:tailwindcss/recommended"
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaFeatures: {
-      "jsx": true
-    },
-    ecmaVersion: 11,
-    sourceType: "module"
+    "project": true
   },
-  plugins: ["react", "react-hooks", "@typescript-eslint", "tailwindcss"],
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
