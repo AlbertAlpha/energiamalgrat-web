@@ -1,11 +1,10 @@
 import React from 'react';
 import type { PathRouteProps } from 'react-router-dom';
 
-import About from '~/pages/about';
-import Contact from '~/pages/contact';
-import Projects from '~/pages/projects';
-
 const Home = React.lazy(() => import('~/pages/home'));
+const Projects = React.lazy(() => import('~/pages/projects'));
+const Contact = React.lazy(() => import('~/pages/contact'));
+const About = React.lazy(() => import('~/pages/about'));
 
 export const routes: Array<PathRouteProps> = [
   {
