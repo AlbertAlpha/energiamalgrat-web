@@ -1,5 +1,4 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-
 import Layout from '~/layout';
 import Routing from '~/router/Routing';
 

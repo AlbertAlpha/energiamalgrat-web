@@ -7,7 +7,7 @@ const config = {
   tabWidth: 2,
   plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
   tailwindFunctions: ['clsx', 'cn', 'cva'],
-  importOrder: ['<BUILT_IN_MODULES>', '', '^react-?', '<THIRD_PARTY_MODULES>', '^(~/.*)$', '^[.]', '', '.css$'],
+  importOrder: ['<BUILT_IN_MODULES>', '', '^react-?', '<THIRD_PARTY_MODULES>', '^(~/.*)$', '^[.]'],
   importOrderTypeScriptVersion: '5.4.0',
 };
 

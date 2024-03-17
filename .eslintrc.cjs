@@ -15,7 +15,8 @@ const config = {
     "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended",
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  // these files are not included in tsconfig.json so to avoid eslint errors when project: true
+  ignorePatterns: ["dist", ".eslintrc.cjs", "prettier.config.js", "tailwind.config.ts", "vite.config.ts"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     "project": true

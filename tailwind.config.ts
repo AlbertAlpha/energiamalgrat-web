@@ -1,4 +1,4 @@
-import { type Config } from 'tailwindcss';
+import type { Config } from 'tailwindcss';
 import { fontFamily } from 'tailwindcss/defaultTheme';
 
 export default {
@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', ...fontFamily.sans],
+        sans: ['Plus Jakarta Sans Variable', ...fontFamily.sans],
       },
     },
   },

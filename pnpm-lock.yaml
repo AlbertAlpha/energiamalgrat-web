@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@fontsource/plus-jakarta-sans':
-    specifier: ^5.0.19
-    version: 5.0.19
+  '@fontsource-variable/plus-jakarta-sans':
+    specifier: ^5.0.20
+    version: 5.0.20
   '@headlessui/react':
     specifier: ^1.7.18
     version: 1.7.18(react-dom@18.2.0)(react@18.2.0)
@@ -581,8 +581,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/plus-jakarta-sans@5.0.19:
-    resolution: {integrity: sha512-LWMReNfB3s3tLRCPlFkqTfheqV40+2RQ4pOFhmKKB+9QrFsSf+g4Sl5r2V0+FNWHzdjfCas7uF4d+PejipqvUw==}
+  /@fontsource-variable/plus-jakarta-sans@5.0.20:
+    resolution: {integrity: sha512-huGRbvrF0dVCF8za32BnDy+W9UqKHOO148C5mFoDW77CARW3pgrZG+r35VKBZjqTM/kZJzbVctsxfXOiP5EUFw==}
     dev: false
 
   /@headlessui/react@1.7.18(react-dom@18.2.0)(react@18.2.0):

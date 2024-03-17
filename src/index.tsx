@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // fonts
-import '@fontsource/plus-jakarta-sans/latin.css';
+import '@fontsource-variable/plus-jakarta-sans';
 import '~/styles/globals.css';
 
 import App from './App';
